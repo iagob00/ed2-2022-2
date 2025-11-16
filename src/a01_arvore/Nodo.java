@@ -85,7 +85,6 @@ public class Nodo {
 		montaStringPreOrdem(sb, 0);
 		return sb.toString();
 	}
-	
 	private void montaStringPreOrdem(StringBuilder sb, int nivel) {
 		sb.append("\n");
 		for (int i = 0; i < nivel; ++i) {
